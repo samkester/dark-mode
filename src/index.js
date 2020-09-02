@@ -7,6 +7,8 @@ import Navbar from "./components/Navbar";
 
 import "./styles.scss";
 
+const darkmode = false;
+
 const App = () => {
   const [coinData, setCoinData] = useState([]);
 
